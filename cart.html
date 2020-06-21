@@ -61,15 +61,17 @@
                     <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
+            
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     My Account
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item"  href="#"  data-toggle="modal" data-target="#Modal">Login</a>
-                    <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#example">Register</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal">Login</a>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#example">Register</a>
                     <a class="dropdown-item" href="cart.html">Cart</a>
                     <a class="dropdown-item" href="order.html">Activity</a>
+
                     <a class="dropdown-item" href="Account.html">Account Settings</a>
                 </div>
             </div>
@@ -148,150 +150,87 @@
         </nav>
     </div>
 <div class="container">
-    <nav aria-label="breadcrumb" class="row">
+     
+<nav aria-label="breadcrumb" class="row">
         <ol class="breadcrumb mt-3 col mr-auto">
             <li class="breadcrumb-item"><a href="index.html">Computers</a></li>
-          
-            <li class="breadcrumb-item "> <a href="Page 2 .html">Playstations</a></li>
-             <li class="breadcrumb-item active" aria-current="page">Playstation 4</li>
+           
+            <li class="breadcrumb-item"><a href="page 2 .html">Playstation</a></li>
+            <li class="breadcrumb-item"><a href="page.html">Playstation 4</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Carts</li>
+            
         </ol>
         
     </nav>
-    <div class="row">
 
-            <div class="col-12 col-md-6">
-               <div class="col-12">
-                        <h4 class="text-md-left"">Playstation 4</h4>
-                    </div>
-                <div class="row" style="float: right;">
-                    <div class="col-3">
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://i.insider.com/5d851bdc2e22af170f2b5575?width=1100&format=jpeg&auto=webp"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/1464/2684/products/5388900_sa_bacb3ac9-1f7f-4e79-94a9-6dd5c9fccfc4_large.jpg?v=1569872130"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://k.nooncdn.com/t_desktop-pdp-v1/v1540209342/N18914982A_1.jpg"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKS2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1590087787000"></a>
-                    </div>
-                    <div class="col-8 m-auto">
-                        <a class="">
-                            <img class="img-fluid" src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" style="float: left;"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 m-auto">
-              <div class="row mt-3">
-                    
-                </div>
-                <div class="row mt-3">
-                    <div class="col-12 m-auto">
-                        <h4 class="text-md-left">$369.00</h4>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="text-center input-group-text" id="inputGroup-sizing-sm">Quantity</span>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" value="1">
-                        </div>
-                    </div>
-                      <div class="col-lg-6 col-12 text-md-left">
-                        <a href="cart.html"><button class="btn btn-info">Add to cart</button></a>
-    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 mt-3">
-                        <p class="font-weight-bold my-2">Colour</p>
-                    </div>
-                    <div class="col-12">
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="Pink" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="Pink">Silver</label>
-                            </div>
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="Black" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="Black">Black</label>
-                            </div>
-                    </div>
+               <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col" class="text-center">Image</th>
+      <th scope="col" class="text-center">Product Name</th>
+       <th scope="col" class="text-center">Quantity</th>
+      <th scope="col" class="text-center">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="color: #808080">
+      <td class="w-25 text-center align-middle"><img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="img-fluid"></td>
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="page.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-10 text-center align-middle"> <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+</td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+    </tr>
+    <tr style="color: #808080">
+      <td class="w-25 text-center align-middle"><img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="img-fluid"></td>
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="page.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-10 text-center align-middle"> <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+</td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+    </tr>
+    <tr style="color: #808080">
+      <td class="w-25 text-center align-middle"><img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="img-fluid"></td>
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="page.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-10 text-center align-middle"> <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+</td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+    </tr>
+  </tbody>
+</table>
 
+  </div>
+  <div class="">
+              <div class="card col-12 product-card border p-2">
+  <h5 class="card-header text-center">Cart Totals</h5>
+  <div class="card-body">
+    <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="text-muted">Subtotal</th>
+                        <td><a href="#" style="color: #808080">$1107.00</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="text-muted">Total</th>
+                        <td><a href="#" style="color: #808080">$1107.00</a></td>
+                      </tr>
+                    </tbody>
+                </table>
+             <a type="submit" class="btn btn-secondary" href="bank.html">Checkout</a>
+  </div>
+ </div>
+</div>
+  
 
-                </div>
-
-                <div class="row">
-                    <div class="col-12 mt-3">
-                        <p class="font-weight-bold my-2">Options</p>
-                    </div>
-                    <div class="col-12">
-                        <form action="">
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="s" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="s">Joystick
-
-</label>
-                            </div>
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="m" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="m">Disk</label>
-                            </div>
-                             <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="l" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="l">Charger</label>
-                            </div>
-                        </form>
-                    </div>
-
-                    
-               
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center" style="margin-top: 50px">
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                            <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Product 1</h5>
-                                <h5 class="text-danger">$ 122.99</h5>
-                                <a href="page.html" class="btn btn-primary">View details</a>
-                            </div>
-                        </div>
-                        </div>
-     </div>
-<div class="container main-footer "  style="margin-top: 50px">
+  </div>
+   
+            
+  </div>
+<div class="container main-footer" style="margin-top: 50px">
     <div class="row">
         <div class="col-12 p-0">
             <ul class="list-group list-group-horizontal-md w-100 justify-content-around text-uppercase font-weight-bold">

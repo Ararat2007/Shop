@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--  Fancybox CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"> 
     <!-- FontAwesome JS -->
     <script src="https://kit.fontawesome.com/2f158531bd.js" crossorigin="anonymous"></script><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
     <!-- css.gg -->
@@ -61,15 +61,17 @@
                     <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
+            
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     My Account
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item"  href="#"  data-toggle="modal" data-target="#Modal">Login</a>
-                    <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#example">Register</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#Modal">Login</a>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#example">Register</a>
                     <a class="dropdown-item" href="cart.html">Cart</a>
                     <a class="dropdown-item" href="order.html">Activity</a>
+
                     <a class="dropdown-item" href="Account.html">Account Settings</a>
                 </div>
             </div>
@@ -148,150 +150,191 @@
         </nav>
     </div>
 <div class="container">
-    <nav aria-label="breadcrumb" class="row">
+      
+  <nav aria-label="breadcrumb" class="row">
         <ol class="breadcrumb mt-3 col mr-auto">
             <li class="breadcrumb-item"><a href="index.html">Computers</a></li>
-          
-            <li class="breadcrumb-item "> <a href="Page 2 .html">Playstations</a></li>
-             <li class="breadcrumb-item active" aria-current="page">Playstation 4</li>
+           <li class="breadcrumb-item"><a href="index.html">My Account</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Activity</li>
         </ol>
         
     </nav>
-    <div class="row">
+              
+  
+<h1 class="my-5 text-center col-12" style="color:#808080">MY ORDERS</h1>
 
-            <div class="col-12 col-md-6">
-               <div class="col-12">
-                        <h4 class="text-md-left"">Playstation 4</h4>
-                    </div>
-                <div class="row" style="float: right;">
-                    <div class="col-3">
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://i.insider.com/5d851bdc2e22af170f2b5575?width=1100&format=jpeg&auto=webp"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/1464/2684/products/5388900_sa_bacb3ac9-1f7f-4e79-94a9-6dd5c9fccfc4_large.jpg?v=1569872130"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://k.nooncdn.com/t_desktop-pdp-v1/v1540209342/N18914982A_1.jpg"></a>
-                        <a class="border d-inline-block m-1 p-1">
-                            <img class="img-fluid" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKS2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1590087787000"></a>
-                    </div>
-                    <div class="col-8 m-auto">
-                        <a class="">
-                            <img class="img-fluid" src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" style="float: left;"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 m-auto">
-              <div class="row mt-3">
-                    
-                </div>
-                <div class="row mt-3">
-                    <div class="col-12 m-auto">
-                        <h4 class="text-md-left">$369.00</h4>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="text-center input-group-text" id="inputGroup-sizing-sm">Quantity</span>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" value="1">
-                        </div>
-                    </div>
-                      <div class="col-lg-6 col-12 text-md-left">
-                        <a href="cart.html"><button class="btn btn-info">Add to cart</button></a>
-    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 mt-3">
-                        <p class="font-weight-bold my-2">Colour</p>
-                    </div>
-                    <div class="col-12">
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="Pink" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="Pink">Silver</label>
-                            </div>
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="Black" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="Black">Black</label>
-                            </div>
-                    </div>
+<table class="table">
+        
+  <thead class="thead-light">
+    <tr>
+      <th scope="col" class="text-center">Product</th>
+      <th scope="col" class="text-center">Price</th>
+      <th scope="col" class="text-center">Quantity</th>
+      <th scope="col" class="text-center">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="color: #808080">
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="product.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+      <td class="w-25 text-center align-middle">1</td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+    </tr>
+    <tr style="color: #808080">
 
-
-                </div>
-
-                <div class="row">
-                    <div class="col-12 mt-3">
-                        <p class="font-weight-bold my-2">Options</p>
-                    </div>
-                    <div class="col-12">
-                        <form action="">
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="s" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="s">Joystick
-
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="product.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+      <td class="w-25 text-center align-middle">2</td>
+      <td class="w-25 text-center align-middle">$738.00</td>
+    </tr>
+    <tr style="color: #808080">
+      <td class="w-25 text-center align-middle"><a class="text-decoration-none" href="product.html" style="color: #808080;">Playstation 4</a></td>
+      <td class="w-25 text-center align-middle">$369.00</td>
+      <td class="w-25 text-center align-middle">3</td>
+      <td class="w-25 text-center align-middle">$1107.00</td>
+    </tr>
+  </tbody>
+</table>
+<div class="row m-auto">
+          <h1 class="my-5 text-center col-12" style="color: #808080"> WISHLIST</h1>
+      <div class="card mt-2 col-lg-3 col-6">
+        <img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title text-center">Playstation 4</p>
+          <h5 class="text-center">$369.00</h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+          </div>
+         <div class="d-flex justify-content-center mt-2">
+          <a href="#" class="btn btn-secondary text-center">Remove</a>
+          </div>
+        </div>
+         <form>
+           <div class="form-group">
+    <label for="exampleFormControlTextarea1">Write a message
 </label>
-                            </div>
-                            <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="m" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="m">Disk</label>
-                            </div>
-                             <div class="custom-control custom-switch custom-control-inline">
-                                <input type="checkbox" id="l" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="l">Charger</label>
-                            </div>
-                        </form>
-                    </div>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <button type="button" class="btn btn-secondary">Send</button>
+  </div>
+</form>
+      </div>
 
-                    
-               
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center" style="margin-top: 50px">
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                                <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <h5 class="text-danger">$ 122.99</h5>
-                                    <a href="page.html" class="btn btn-primary">View details</a>
-                                </div>
-                            </div>
-                            <div class="card m-2 col-md-2 col-12 text-center p-2">
-                            <img img="" src="https://cdn.shopify.com/s/files/1/0409/7245/products/ametist_7757e759-90b2-408e-91a9-bf839f2b3d28_1024x.jpg?v=1571438816" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Product 1</h5>
-                                <h5 class="text-danger">$ 122.99</h5>
-                                <a href="page.html" class="btn btn-primary">View details</a>
-                            </div>
-                        </div>
-                        </div>
-     </div>
-<div class="container main-footer "  style="margin-top: 50px">
+
+      <div class="card mt-2 col-lg-3 col-6">
+        <img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title text-center">Playstation 4</p>
+          <h5 class="text-center">$369.00</h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+          </div>
+         <div class="d-flex justify-content-center mt-2">
+          <a href="#" class="btn btn-secondary text-center">Remove</a>
+          </div>
+          
+        </div>
+        <form>
+           <div class="form-group">
+    <label for="exampleFormControlTextarea1">Write a message
+</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <button type="button" class="btn btn-secondary">Send</button>
+  </div>
+</form>
+      </div>
+     
+
+      <div class="card mt-2 col-lg-3 col-6">
+        <img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title text-center">Playstation 4</p>
+          <h5 class="text-center">$369.00</h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+          </div>
+         <div class="d-flex justify-content-center mt-2">
+          <a href="#" class="btn btn-secondary text-center">Remove</a>
+          </div>
+        </div>
+         <form>
+           <div class="form-group">
+    <label for="exampleFormControlTextarea1">Write a message
+</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <button type="button" class="btn btn-secondary">Send</button>
+  </div>
+</form>
+      </div>
+
+
+      <div class="card mt-2 col-lg-3 col-6">
+        <img src="https://images.getprice.com.au/products/SonyPlayStation4Pro1TB.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title text-center">Playstation 4</p>
+          <h5 class="text-center">$369.00</h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+          </div>
+         <div class="d-flex justify-content-center mt-2">
+          <a href="#" class="btn btn-secondary text-center">Remove</a>
+          </div>
+        </div>
+        <form>
+           <div class="form-group">
+    <label for="exampleFormControlTextarea1">Write a message
+</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <button type="button" class="btn btn-secondary">Send</button>
+  </div>
+</form>
+      </div>
+
+      </div>
+      <div class="row m-auto">
+          <h1 class="my-5 text-center col-12" style="color:#808080">RECENTLY VIEWED</h1>
+      <div class="card mt-2 col-lg-4 col-12">
+            <img img="" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d5c5e467fe0f.jpg.pagespeed.ce.quJgmqI42s.jpg " alt="" class="card-img-top ">
+       
+        <div class="card-body">
+          <p class="card-title text-center">Product 1</p>
+          <h5 class="text-center" style="color: #DC143C">$ 122.99</h5>
+          <h5 class="text-center"><del>$ 200</del></h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="card mt-2 col-lg-4 col-12">
+            <img img="" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d5c5e467fe0f.jpg.pagespeed.ce.quJgmqI42s.jpg " alt="" class="card-img-top ">
+       
+        <div class="card-body">
+          <p class="card-title text-center">Product 1</p>
+          <h5 class="text-center" style="color: #DC143C">$ 122.99</h5>
+          <h5 class="text-center"><del>$ 200</del></h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+        </div>
+        </div>
+      </div>
+     
+
+     <div class="card mt-2 col-lg-4 col-12">
+            <img img="" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d5c5e467fe0f.jpg.pagespeed.ce.quJgmqI42s.jpg " alt="" class="card-img-top ">
+        
+        <div class="card-body">
+          <p class="card-title text-center">Product 1</p>
+          <h5 class="text-center" style="color: #DC143C">$ 122.99</h5>
+          <h5 class="text-center"><del>$ 200</del></h5>
+          <div class="d-flex justify-content-center">
+          <a href="cart.html" class="btn btn-secondary text-center">Add to cart</a>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container main-footer "style="margin-top: 20px">
     <div class="row">
         <div class="col-12 p-0">
             <ul class="list-group list-group-horizontal-md w-100 justify-content-around text-uppercase font-weight-bold">
